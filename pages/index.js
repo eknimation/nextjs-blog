@@ -14,7 +14,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
-  console.log(allPostsData);
   allPostsData.map;
   return (
     <Layout home>
